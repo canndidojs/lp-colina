@@ -1,0 +1,18 @@
+.btn-primary {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  display: inline-block;
+  padding: 1.2rem 3.3rem;
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0.8rem;
+  background-color: var(--blue);
+  cursor: pointer;
+
+  transition: background-color 0.4s;
+}
+
+.btn-primary:hover {
+  background-color: var(--light-blue);
+}

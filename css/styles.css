@@ -1,0 +1,390 @@
+body {
+  background-color: var(--off-white);
+}
+.s-hero {
+  background-color: var(--light-blue);
+}
+
+.s-hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.s-hero .text {
+  padding-top: 16.6rem;
+  position: relative;
+}
+
+.s-hero .stars {
+  position: absolute;
+  left: -11rem;
+  top: 8.6rem;
+}
+
+.s-hero .gota {
+  position: absolute;
+  top: 10rem;
+  right: 0;
+}
+
+.s-hero .gota .min-gota {
+  width: 3.9rem;
+  height: 3.9rem;
+}
+
+.s-hero .text h1 {
+  margin-bottom: 4rem;
+  max-width: 55.7rem;
+  width: 100%;
+}
+
+.s-hero .text p {
+  max-width: 37rem;
+  width: 100%;
+  margin-bottom: 6.6rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: var(--white);
+}
+
+.s-hero .text .btn-primary {
+  transition: background-color 0.4s;
+  background-color: var(--dark-blue);
+  margin-bottom: 21.6rem;
+}
+
+.s-hero .text .btn-primary:hover {
+  background-color: var(--blue);
+}
+
+.s-hero .images {
+  width: 100%;
+  max-width: 58.5rem;
+  margin-right: -17.4rem;
+}
+.s-hero .images .vectors {
+  position: relative;
+  width: 100%;
+  height: 77.5rem;
+}
+.s-hero .images .vectors img {
+  position: absolute;
+}
+
+.s-hero .images .vectors .circle {
+  bottom: -10rem;
+  left: -9.5rem;
+  z-index: 0;
+}
+.s-hero .images .vectors .mockup-01 {
+  bottom: -2rem;
+  z-index: 1;
+}
+
+.s-hero .images .vectors .gota {
+  top: 9.5rem;
+  right: 14rem;
+  z-index: 2;
+}
+.s-hero .images .vectors .gota-menor {
+  top: 15rem;
+  right: 10rem;
+  width: 3.9rem;
+  height: 3.9rem;
+  z-index: 2;
+}
+
+/* S-depoimentos styles  */
+
+.s-depoimentos {
+  padding-top: 8rem;
+  background-color: var(--off-white);
+  z-index: 3;
+  position: sticky;
+}
+
+.s-depoimentos .title h2 {
+  text-align: center;
+  margin-bottom: 4.1rem;
+  color: var(--light-blue);
+  word-wrap: none;
+}
+
+.s-depoimentos .image {
+  position: relative;
+}
+
+.s-depoimentos .image img {
+  position: absolute;
+}
+.s-depoimentos .image .stars {
+  right: 6rem;
+  top: -45px;
+}
+
+.s-depoimentos .title {
+  width: 100%;
+}
+
+.s-depoimentos .btn-primary {
+  margin-top: 7.9rem;
+  margin-bottom: 8.4rem;
+}
+
+.s-depoimentos .button {
+  display: flex;
+  justify-content: center;
+}
+
+.s-depoimentos .depoimentos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.s-depoimentos .depoimentos .card .estrela-menor {
+  width: 100%;
+  max-width: 8rem;
+  height: 1.6rem;
+}
+
+.s-depoimentos .depoimentos .card:first-child,
+.card:last-child {
+  max-width: 333px;
+  height: 164px;
+}
+
+.s-depoimentos .depoimentos .card:nth-child(even) .user {
+  margin-bottom: 1.6rem;
+}
+
+.s-depoimentos .depoimentos .card:nth-child(even) .avatar {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.s-depoimentos .depoimentos .card:nth-child(3n) .avatar {
+  margin-right: 1.4rem;
+}
+
+.s-depoimentos .depoimentos .card:nth-child(3n) .user {
+  margin-bottom: 1.5rem;
+}
+
+/* .s-depoimentos .slide-depoimento {
+  overflow: hidden;
+} */
+
+/* .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -29.5rem;
+} */
+
+/* Tutorial styles  */
+
+.s-tutorial {
+  background-image: url(/img/bg-depoimentos.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 8rem;
+}
+
+.s-tutorial h2 {
+  font-weight: 800;
+  line-height: 56px;
+  text-align: center;
+  color: var(--light-blue);
+}
+
+.s-tutorial p {
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 2.9rem;
+  margin-bottom: 11rem;
+  color: var(--white);
+}
+
+.s-tutorial .items ul {
+  width: 100%;
+  max-width: 110rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-tutorial .numbers ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1040px;
+}
+
+.s-tutorial .numbers {
+  margin-left: 3rem;
+  position: relative;
+}
+
+.s-tutorial .numbers .circle-number {
+  width: 64px;
+  height: 64px;
+  background-color: var(--blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: var(--white);
+  margin-top: 5.1rem;
+  z-index: 5;
+}
+
+.s-tutorial .line {
+  position: absolute;
+  height: 0.5rem;
+  width: 99rem;
+  left: 0.2rem;
+  top: 8.5rem;
+  background-color: var(--blue);
+}
+
+.s-tutorial .descricao ul li p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: var(--white)
+}
+
+.s-tutorial .descricao ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-tutorial .descricao {
+  margin-left: 3rem;
+  width: 100%;
+  position: relative;
+}
+
+.s-tutorial .descricao ul li p {
+  position: absolute;
+}
+
+.s-tutorial .descricao ul li p.li-01,
+.li-02,
+.li-03,
+.li-04,
+.li-05 {
+  top: 18px;
+}
+
+.s-tutorial .descricao ul li p.li-05{
+  right: 0.5rem;
+} 
+.s-tutorial .descricao ul li p.li-04{
+  right: 24rem;
+} 
+.s-tutorial .descricao ul li p.li-03{
+  left: 44.5rem
+} 
+
+.s-tutorial .descricao ul li p.li-02{
+  left: 21rem
+} 
+
+.s-tutorial .descricao ul li p.li-01 {
+  left: -50px;
+}
+
+.s-tutorial .descricao ul li p {
+  text-align: center;
+}
+
+.s-tutorial .descricao ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-tutorial .button {
+  display: flex;
+  justify-content: center;
+}
+
+.s-tutorial .btn-primary {
+  margin-bottom: 10.1rem;
+  margin-top: 16.8rem;
+}
+
+/* footer styles */
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .text-area {
+  width: 100%;
+  max-width: 44.5rem;
+  margin-top: 6rem;
+}
+
+footer .text-area h2 {
+  margin-bottom: 4rem;
+  font-weight: 800;
+  color: var(--blue);
+}
+
+footer .text-area p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: var(--dark-blue);
+  margin-bottom: 3rem;
+}
+
+footer .text-area h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 7rem;
+  color: var(--dark-blue);
+}
+
+footer .btn-primary {
+  margin-bottom: 8rem;
+}
+
+footer .image {
+  position: relative;
+  max-width: 58rem;
+  width: 100%;
+}
+
+footer .image img {
+  position: absolute;
+}
+
+footer .image .gota-vetor {
+  left: 15rem;
+}
+
+footer .image .tickets {
+  left: 13rem;
+  bottom: 10rem;
+}
+
+footer .image .stars-footer {
+  top: 7rem;
+  z-index: -2;
+  left: 13rem;
+}
